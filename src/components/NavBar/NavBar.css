@@ -1,0 +1,21 @@
+.nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+}
+
+.user-avatar{
+    height: 40px;
+    width:40px;
+    border-radius: 100px;
+}
+
+.user-name{
+    font-weight: bold;
+}
+
+.logo{
+    height: 40px;
+    width:40px;
+}
