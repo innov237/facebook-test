@@ -31,6 +31,27 @@
     margin-right: 5px;
 }
 
+.icon-image{
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    border-radius: 100px;
+    padding: 10px;
+    margin-top:8px;
+}
+
+
+.active{
+    border-bottom: 5px solid #046696;
+}
+
+
+.icon-image-sm{
+    width: 30px;
+    height: 30px;
+    padding: 2px;
+}
+
 .user-post-message > p{
     font-size: 18px;
     color: #050505;
@@ -93,3 +114,99 @@
 
 .user-post-comment-details{
 }
+
+/***
+* CSS PUBLIC SECTION
+**/
+
+.post-card{
+    background-color: white;
+}
+
+.card-img{
+    width: 300px;
+    height: 150px;
+}
+
+.post-card-details h1{
+    font-size: 20px;
+    margin-left: 10px;
+    color: #046696;
+}
+
+.avatar-circle{
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    margin-left: -10px;
+}
+
+.sub-text{
+    color: red;
+    font-weight: bold;
+    font-size: 18px;
+    margin-left: 6px;
+    margin-top: 10px;
+}
+
+.card-img-text{
+    position: relative;
+}
+
+.text-on-img{
+    position: absolute;
+    bottom: 0px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    left: 10px;
+}
+
+.post-card{
+    margin-bottom: 5px;
+}
+
+.advice-post{
+    padding: 5px;
+    position: relative;
+}
+
+.advice-post-img{
+    width: 100%;
+    height: 200px;
+}
+
+.advice-content{
+    position: absolute;
+    bottom: 5px;
+    padding: 10px;
+}
+
+.advice-content h1{
+    color: rgb(230, 230, 23);
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.advice-content h2{
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    margin-top:-8px;
+}
+
+.bg-white{
+    background-color:white;
+}
+
+.nopadding {
+    padding: 0 !important;
+    margin: 0 !important;
+ }
+
+ .row-no-padding > [class*="col-"] {
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+ }
